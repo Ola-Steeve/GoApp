@@ -47,4 +47,16 @@ func main() {
 
 	fmt.Printf("%s %v, i'm here to serve your every need\n", greeting, Name)
 
+	//this would introduce a 3 second delay before running the next code
+	time.Sleep(1 * time.Second)
+
+	OddvEven()
+
+	//this would introduce a 3 second delay before running the next code
+	time.Sleep(1 * time.Second)
+	guess()
+
+	time.Sleep(1 * time.Second)
+	prime()
+
 }

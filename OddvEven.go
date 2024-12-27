@@ -14,7 +14,7 @@ func OddvEven() {
 		case number%2 == 0:
 			fmt.Println("This is an even number")
 		default:
-			fmt.Print("This is an Odd number")
+			fmt.Print("This is an Odd number\n")
 		}
 
 		//Ask if they want another one

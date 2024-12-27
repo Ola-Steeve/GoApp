@@ -19,7 +19,7 @@ func guess() {
 	fmt.Println("I would generate a random number and i want you to guess this number in 5 chances")
 	//1 second delay
 	time.Sleep(1 * time.Second)
-	for chances < 5 {
+	for chances < 6 {
 
 		fmt.Println("Pick any number: ")
 		fmt.Scan(&random)
@@ -30,10 +30,11 @@ func guess() {
 			fmt.Println("TOO HIGH")
 		} else {
 			fmt.Println("SPOT ON!!")
+			break
 		}
 		chances++
 	}
 
-	fmt.Println("Sorry you used all your chances")
+	fmt.Printf("Sorry you used all your chances, the number was %v\n", rng)
 
 }
