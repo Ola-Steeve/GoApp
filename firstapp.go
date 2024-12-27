@@ -57,6 +57,6 @@ func main() {
 	guess()
 
 	time.Sleep(1 * time.Second)
-	prime()
+	// prime()
 
 }
