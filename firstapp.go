@@ -5,13 +5,13 @@ import (
 	"time"
 )
 
-var name string
+var Name string
 
 func main() {
 
 	//First part of challenge, a user gives the system an input and the system greets user
 	fmt.Println("Good day my name is R.O.Y or Random Operating System Yay, what's yours?")
-	fmt.Scan(&name)
+	fmt.Scan(&Name)
 	//fmt.Println(&name)
 
 	//current time
@@ -45,6 +45,6 @@ func main() {
 		greeting = "Good Evening"
 	}
 
-	fmt.Printf("%s %v, i'm here to serve your every need\n", greeting, name)
+	fmt.Printf("%s %v, i'm here to serve your every need\n", greeting, Name)
 
 }
