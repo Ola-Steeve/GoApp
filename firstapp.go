@@ -56,7 +56,10 @@ func main() {
 	time.Sleep(1 * time.Second)
 	guess()
 
-	time.Sleep(1 * time.Second)
+	// time.Sleep(1 * time.Second)
 	// prime()
+
+	time.Sleep(1 * time.Second)
+	fizzbuzz()
 
 }

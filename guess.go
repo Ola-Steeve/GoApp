@@ -8,7 +8,6 @@ import (
 
 func guess() {
 	// Create a new random number generator
-
 	src := rand.NewSource(time.Now().UnixNano())
 	r := rand.New(src)
 
@@ -30,7 +29,7 @@ func guess() {
 			fmt.Println("TOO HIGH")
 		} else {
 			fmt.Println("SPOT ON!!")
-			break
+			return
 		}
 		chances++
 	}
